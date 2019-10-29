@@ -1,0 +1,54 @@
+.App {
+  order: 1;
+  margin: 0%;
+  width: 100vh;
+  height: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.AddButton {
+  order: 2;
+  margin-top: 50px;
+  width: 120px;
+  height: 50px;
+  border-radius: 6;
+  font: bold 16px arial, sans-serif;
+  color: darkblue;
+  background-color: cornflowerblue;
+  border-radius: 6px;
+  border: none;
+}
+
+ul {
+  order: 3;
+  height: 200px;
+  width: 300px;
+  border-radius: 6px;
+  background-color: aliceblue;
+  margin-top: 50px;
+}
+
+li {
+  height: 20px;
+  width: 280px;
+  font: bold 14px arial, sans-serif;
+  margin-top: 15px;
+  position: relative;
+
+}
+
+.Delete {
+  color: darkgrey;
+  text-align: center;
+  font: bold 12px arial, sans-serif;
+  position: absolute;
+  right: 10px;
+  border-radius: 3px;
+  height: 24px;
+  width: 48px;
+  border: none;
+  background-color: papayawhip;
+}

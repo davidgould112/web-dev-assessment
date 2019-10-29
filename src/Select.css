@@ -1,0 +1,9 @@
+select {
+  order: 1;
+  height: 60px;
+  width: 280px;
+  border-radius: 6;
+  border: none;
+  font: bold 18px arial, sans-serif;
+  background-color: lightgray;
+}
